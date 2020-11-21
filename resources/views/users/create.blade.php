@@ -24,8 +24,8 @@
             <input type="password" name="password" class="form-control" value="">
           </div>
           <div class="form-group">
-            <label for="password-confirmation">确认密码：</label>
-            <input type="password" name="password-confirmation" class="form-control" value="">
+            <label for="password_confirmation">确认密码：</label>
+            <input type="password" name="password_confirmation" class="form-control" value="">
           </div>
           <button type="submit" class="btn btn-primary">注册</button>
         </form>
