@@ -27,3 +27,26 @@ footer {
       height: 17px;
     }
   }
+
+  section.user_info {
+    padding-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    .gravatar {
+        max-width: 70px;
+        float: none;
+    }
+    h3 {
+        font-size: 1.4rem;
+        letter-spacing: -1px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+        color: #333;
+    }
+  }
+
+  .gravatar {
+      float: left;
+      max-width: 50px;
+      border-radius: 50%;
+  }
