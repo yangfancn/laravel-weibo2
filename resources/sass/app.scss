@@ -60,3 +60,19 @@ footer {
   .text-small {
       font-size: 12px;
   }
+
+  .nav-link {
+      line-height: 40px;
+  }
+
+  .user-photo {
+      &:after {
+          content: none!important;
+      }
+
+      img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+      }
+  }
