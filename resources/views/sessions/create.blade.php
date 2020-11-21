@@ -2,28 +2,34 @@
 @section('title', '用户登录')
 
 @section('content')
-  <div class="offset-md-2 col-md-8">
-    <div class="card">
-      <div class="card-header">
-        <h5>登录</h5>
-      </div>
-      <div class="card-body">
-        @include('shared._error')
+<div class="offset-md-2 col-md-8">
+  <div class="card">
+    <div class="card-header">
+      <h5>登录</h5>
+    </div>
+    <div class="card-body">
+      @include('shared._error')
 
-        <form action="{{ route('login') }}" method="POST">
-          @csrf
-          <div class="form-group">
-            <label for="email">邮箱：</label>
-            <input type="text" name="email" class="form-control" value="{{ old('email') }}">
+      <form action="{{ route('login') }}" method="POST">
+        @csrf
+        <div class="form-group">
+          <label for="email">邮箱：</label>
+          <input type="text" name="email" class="form-control" value="{{ old('email') }}">
+        </div>
+        <div class="form-group">
+          <label for="password">密码：</label>
+          <input type="password" name="password" class="form-control">
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="checkbox" name="remember" class="form-check-input">
+            <label for="remember" class="form-check-label">记住我</label>
           </div>
-          <div class="form-group">
-            <label for="passeord">密码：</label>
-            <input type="password" name="password" class="form-control">
-          </div>
-          <button type="submit" class="btn btn-primary">登录</button>
-          <p class="text-small mt-3">还没账号？<a href="{{ route('signup') }}">现在注册！</a></p>
-        </form>
-      </div>
+        </div>
+        <button type="submit" class="btn btn-primary">登录</button>
+        <p class="text-small mt-3">还没账号？<a href="{{ route('signup') }}">现在注册！</a></p>
+      </form>
     </div>
   </div>
+</div>
 @endsection
