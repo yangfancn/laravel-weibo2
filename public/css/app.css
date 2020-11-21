@@ -10955,3 +10955,7 @@ section.user_info h3 {
   border-radius: 50%;
 }
 
+.alert-danger ul {
+  margin-bottom: 0;
+}
+
