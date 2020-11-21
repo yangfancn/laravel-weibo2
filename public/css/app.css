@@ -10959,3 +10959,7 @@ section.user_info h3 {
   margin-bottom: 0;
 }
 
+.text-small {
+  font-size: 12px;
+}
+

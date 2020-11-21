@@ -28,6 +28,7 @@
             <input type="password" name="password_confirmation" class="form-control" value="">
           </div>
           <button type="submit" class="btn btn-primary">注册</button>
+          <p class="text-small mt-3">已有账号？去<a href="{{ route('login') }}">登录</a></p>
         </form>
       </div>
     </div>
