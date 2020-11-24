@@ -27,7 +27,7 @@
           </div>
         </div>
         <button type="submit" class="btn btn-primary">登录</button>
-        <p class="text-small mt-3">还没账号？<a href="{{ route('signup') }}">现在注册！</a></p>
+        <p class="text-small mt-3"><a href="{{ route('password.request') }}">忘记密码？</a> | 还没账号？<a href="{{ route('signup') }}">现在注册！</a></p>
       </form>
     </div>
   </div>

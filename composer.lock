@@ -169,9 +169,6 @@
                 "laravel",
                 "lpm"
             ],
-            "support": {
-                "source": "https://github.com/caouecs/lang/tree/4.0.11"
-            },
             "abandoned": "https://github.com/Laravel-Lang/lang",
             "time": "2020-03-17T15:24:26+00:00"
         },
@@ -1840,10 +1837,6 @@
                 "locale",
                 "overtrue"
             ],
-            "support": {
-                "issues": "https://github.com/overtrue/laravel-lang/issues",
-                "source": "https://github.com/overtrue/laravel-lang/tree/3.0.18"
-            },
             "funding": [
                 {
                     "url": "https://www.patreon.com/overtrue",
@@ -7681,5 +7674,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "1.1.0"
 }
