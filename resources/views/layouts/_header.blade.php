@@ -10,7 +10,7 @@
       <ul class="navbar-nav ml-auto">
         @if (Auth::check())
           <li class="nav-item">
-            <a href="#" class="nav-link">用户列表</a>
+            <a href="{{ route('users.index') }}" class="nav-link">用户列表</a>
           </li>
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle user-photo" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
