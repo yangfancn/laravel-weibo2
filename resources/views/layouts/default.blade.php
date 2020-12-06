@@ -14,7 +14,7 @@
   @include('layouts._header')
 
   <div class="container pt-5">
-    <div class="col-md-10 offset-md-1">
+    <div class="col-md-12">
       @include('shared._message')
       @yield('content')
     </div>
